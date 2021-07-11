@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+        #demo{
+            margin-bottom: 20px;
+        }
+        .carousel-inner img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
+    <!--linking to bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+</head>
+<body>
+<br>
+<div class="container">
+   <!--responsive-->
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+        <div class="nav-header ">
+            <button class="navbar-toggler" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar" ></span>
+            </button>
+            <a href="#" class="navbar-brand">bootstrap</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-link" href="#">Home</a>
+                </li>
+                <li>
+                <li class="nav-item">
+                    <a class="navbar-link"href="#">About</a>
+                </li>
+                <li>
+                <li class="nav-item">
+                    <a class="navbar-link"href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="">Log In</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+</div>
+<div  class="container">
+    <table class="table table-bordered table-hover table-dark">
+        <tr>
+            <th>movies</th>
+            <th>prices</th>
+        </tr>
+        <tr>
+            <td>avengers</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>justice league</td>
+            <td>1000</td>
+        </tr>
+    </table>
+</div>
+<div class="container">
+    <form action=""method=""enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="text"name=""class="form-control"placeholder="Enter Username">
+
+        </div>
+        <div class="form-group">
+            <input type="password"name=""class="form-control"placeholder="Enter password">
+
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="Submit"name=""class="btn btn-primary"value="Log in">
+
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="Reset"name=""class="btn btn-danger" value="Reset form">
+
+        </div>
+
+    </form>
+</div>
+
+<div class="container">
+ <p class=" alert alert-primary lead text-danger">
+     A paragraph consists of one or more sentences that form a self-contained unit of discourse.
+     The start of a paragraph is indicated by a new line.
+     Text is easier to understand when it is split up into units of text.
+     For example, a book may have chapters. Chapters can have subheadings.
+     Under each heading there will be one or more paragraphs.
+
+ </p>
+    <p class="small text-primary">
+        A paragraph consists of one or more sentences that form a self-contained unit of discourse.
+        The start of a paragraph is indicated by a new line.
+        Text is easier to understand when it is split up into units of text.
+        For example, a book may have chapters. Chapters can have subheadings.
+        Under each heading there will be one or more paragraphs.
+
+    </p>
+</div>
+<div class="container">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0"class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class=" carousel-inner">
+            <div class="carousel-item active">
+                <img class="carousel-inner img" src=" images/karembo.jpg" alt="Nairobi" width="1110"height="500">
+                <div class="carousel-caption">
+                    <h3>Nairobi</h3>
+                    <p>Thank you, Nairobi</p>
+
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <img class="carousel-inner img" src="images/karembo.jpg" alt="Mombasa" width="1110"height="500">
+                <div class="carousel-caption">
+                    <h3>Mombasa</h3>
+                    <p>Thank you, Mombasa</p>
+
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <img class="carousel-inner img" src="images/karembo.jpg" alt="Kisumu" width="1110"height="500">
+                <div class="carousel-caption">
+                    <h3>Kisumu</h3>
+                    <p>Thank you, Kisumu</p>
+
+                </div>
+
+            </div>
+        </div>
+        <a href="#demo"class="carousel-control prev"data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+
+        </a>
+        <a href="#demo"class="carousel-control prev"data-slide="next">
+            <span class="carousel-control-next"></span>
+        </a>
+        <a href="#demo"class="carousel-control prev"data-slide="prev">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>

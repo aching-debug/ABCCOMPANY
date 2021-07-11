@@ -1,0 +1,12 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+#logo{
+    display: flex;
+
+}
